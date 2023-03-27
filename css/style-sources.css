@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+
+.gtitre {
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 2rem;
+    font-family: 'Poppins', 'sans serif';
+}
+.source {
+    font-style:italic;
+    font-size: 1.3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 0;
+    position: relative;
+    left: 45px;
+    width: 50vw;
+    padding: 8px;
+    border-left: 4px solid rgba(22, 11, 231, 0.767);
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-bottom: 10px;
+}
+.source:hover {
+    transform: translateY(4px);
+    transition: 0.3s ease-in-out;
+}

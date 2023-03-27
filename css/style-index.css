@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+* {
+    margin: 0px; /* on supprime les marges présentes par défaut */
+    padding: 0px;
+}
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+img {
+    position: relative;
+    top: -5vh;
+    width: 98.61vw;
+    object-fit: scale-down;
+    height: 100vh;
+}
+.wave {
+    position: absolute;
+    top: 29.5vh;
+    z-index: 2;
+}
+.accroche {
+    position: absolute;
+    font-size: 3.15em;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    font-weight: bold;
+    left: 10vw;
+    width: 800px;
+    top: 25vh;
+    color: white;
+}
+.bouton {
+    position: absolute;
+    z-index: 10000;
+    font-size: 1.8em;
+    top: 42vh;
+    left: 55vw;
+    width:300px;
+    height:42px;
+    background: rgb(243, 150, 10);
+    transform:skew(25deg);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', 'sans serif';
+    text-align: center;
+}
+@media screen and (max-width : 600px) {
+    img {
+        position: relative;
+        top: 4vh;
+        width: 99.99vw;
+        height: auto;
+        background-size: cover;   
+    }
+}
+@media screen and (max-width : 300px) {
+    img {
+        display: none;   
+    }
+    .wave {
+        display: none;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .accroche {
+        font-size: 4.5em; 
+        right: 60vh;
+    }
+}
+@media screen and (max-width: 1300px) and (min-width : 1000px) {
+    .accroche {
+        font-size: 2.5em; 
+        right: 50vh;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width : 600px) {
+    .accroche {
+        font-size: 2.35em; 
+        right: 30vh;
+    }
+}
